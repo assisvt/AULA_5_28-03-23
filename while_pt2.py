@@ -1,8 +1,8 @@
-ct = 0 #contador
+ct = 0 # Contador
 soma = 0
 # ou ct = soma = 0
 print('Digite [0] para sair')
-while True:           # while valor != 0:
+while True:           # While valor != 0:
     valor = int(input('Digite um número: '))
     if valor == 0:    # Valor igual (==) a 0 é a condição de saída
         break         # O break força a saída da estrutura de repetição (while)

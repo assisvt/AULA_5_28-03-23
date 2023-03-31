@@ -1,4 +1,4 @@
-ct = 0
+ct = 0 #contador
 soma = 0
 # ou ct = soma = 0
 print('Digite [0] para sair')

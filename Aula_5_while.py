@@ -29,11 +29,12 @@ print('A soma das notas do alunos é:', soma)
 print(f"A média da turma é = {media:.2f}")
 # string formatada em alternativa a /* print("A média da turma é:", media */
 '''
+# Um aluno realizou respectivamente uma prova. Digite a notas dos respectivos alunos.
 ct = 0
 soma = 0
 print('Digite [-1] para sair')
 while True:
-    nota = float(input('Digite um número: '))
+    nota = float(input('Digite a nota: '))
     if nota == -1:
         break
     ct = ct + 1
@@ -41,7 +42,7 @@ while True:
     # Fim while
 media = soma/ct
 print('Quantidade de alunos:', ct)
-print(f"A média da turma de {ct} alunos é {media:.2f}")
+print(f'A média da turma de {ct} alunos é {media:.2f}')
 # ou, colocar isso em vez do print acima.
 # print('A soma das notas do alunos é:', soma, end = " ")
 # print(f"e a média da turma é = {media:.2f}")

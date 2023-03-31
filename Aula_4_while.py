@@ -9,8 +9,8 @@ while True: # Laço de repetição, repete enquanto condição verdadeira
     ct = ct + 1 # ct += 1 (contador), incremento o ct
     soma = soma + numero  # soma += numero
     # Fim da estrutura de repetição de repetição "while"
-print('Quantidade de números:', ct)
-print('A soma dos números é: ', soma)
+print('Quantidade de números digitados:', ct)
+print('A soma dos números digitados é: ', soma)
 '''
 
 '''ct = 0
